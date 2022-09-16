@@ -59,3 +59,4 @@ gem "view_component"
 # add slim
 gem "slim-rails"
 gem "html2slim"
+gem "tailwindcss-rails", "~> 2.0"
