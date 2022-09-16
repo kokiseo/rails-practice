@@ -55,3 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # view_componet
 gem "view_component"
+
+# add slim
+gem "slim-rails"
+gem "html2slim"
