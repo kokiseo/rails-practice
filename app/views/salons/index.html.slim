@@ -11,7 +11,9 @@ section.hero.small.relative.flex.flex-col.justify-center.bg-cover.bg-center.bg-n
   .container.z-10
     h1.text-center.text-white.block.z-10.font-bold.text-lg 美容室・美容院・ヘアサロン一覧
       
-
-= render(ExampleComponent.new(title: "my title").with_content("Hello, World!"))
-
-= render(List::Item::CardComponent.new(name: "Salon"))
+section.salon-list.mt-8
+  div.container.mx-auto
+    div.w-full.mx-auto.md:w-8/12
+      h2.font-bold.text-lg.ml-4 検索結果
+    = render (List::ListComponent.new())
+      
