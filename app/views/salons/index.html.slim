@@ -11,4 +11,9 @@ section.hero.small.relative.flex.flex-col.justify-center.bg-cover.bg-center.bg-n
   .container.z-10
     h1.text-center.text-white.block.z-10.font-bold.text-lg 美容室・美容院・ヘアサロン一覧
       
-
+section.salon-list.mt-8
+  div.container.mx-auto
+    div.w-full.mx-auto
+      h2.font-bold.text-lg 検索結果
+    = render (List::ListComponent.new())
+      
